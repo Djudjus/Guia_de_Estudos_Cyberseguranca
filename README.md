@@ -45,8 +45,8 @@ Foram feitas algumas perguntas para o LLM para extrair informações de maneiras
 Por exemplo:
 * **me mostre quais são os principais pilares da Cibersegurança!
 * **Os principais pilares da Cibersegurança fundamentam-se na proteção de dados e sistemas, sendo frequentemente representados pela Tríade CIA (Confidencialidade, Integridade e Disponibilidade), que é expandida em modelos mais abrangentes para incluir a Autenticidade e a Legalidade
-
 .
+
 Abaixo estão detalhados os cinco pilares essenciais:
 
 Confidencialidade: Garante que a informação seja acessível apenas por pessoas ou sistemas devidamente autorizados
