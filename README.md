@@ -78,7 +78,7 @@ Diretrizes de Conteúdo: Para cada pilar abordado, você deve incluir:
  - Uma estratégia de mitigação ou controle tecnológico para protegê-lo.
 Formatação: Apresente as informações estruturadas em tópicos claros, utilizando tabelas ou blocos de destaque para os exemplos práticos, garantindo uma leitura altamente escaneável. Evite respostas genéricas ou superficiais.
 
-*Como Arquiteto de Cibersegurança Sênior e Especialista em Governança, apresento a análise técnica dos pilares fundamentais que sustentam a resiliência digital corporativa em 2026. A tradicional Tríade CID (Confidencialidade, Integridade e Disponibilidade) foi expandida para incluir Autenticidade e Legalidade, refletindo as exigências de um ecossistema dominado por IA, redes 5G e regulamentações rigorosas como a LGPD.
+* Como Arquiteto de Cibersegurança Sênior e Especialista em Governança, apresento a análise técnica dos pilares fundamentais que sustentam a resiliência digital corporativa em 2026. A tradicional Tríade CID (Confidencialidade, Integridade e Disponibilidade) foi expandida para incluir Autenticidade e Legalidade, refletindo as exigências de um ecossistema dominado por IA, redes 5G e regulamentações rigorosas como a LGPD.
 
 1. Confidencialidade (Confidentiality)
 Definição Técnica: Garante que a informação seja acessível estritamente a pessoas, processos ou sistemas devidamente autorizados, prevenindo a divulgação não autorizada de dados sensíveis.
