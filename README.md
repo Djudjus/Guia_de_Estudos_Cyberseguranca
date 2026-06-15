@@ -64,7 +64,7 @@ Resultado obtido: Código preciso em Ruby, separação clara das responsabilidad
 Lição aprendida (Troubleshooting): Fornecer o papel (persona), a fonte exata (NIST/OWASP) e exigir o contraponto (vulnerável vs. mitigado) eleva drasticamente a qualidade da resposta da IA.
 
 4. Miniguia de Estudo e Entrega Final
-5. 
+
 📑 Resumos Estruturados
 
 4.1. OWASP Top 10 & Defesa em Aplicações
