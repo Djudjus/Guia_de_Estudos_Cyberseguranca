@@ -17,13 +17,34 @@ Defesa Automatizada: Explorar o uso de Inteligência Artificial (modelos LSTM e 
 2. Curadoria de Fontes (NotebookLM)
 Para garantir o rigor técnico do material, os seguintes documentos públicos e fontes abertas foram selecionados, analisados e carregados na ferramenta de suporte:
 
-NIST Cybersecurity Framework (CSF) 2.0 / SP 1800-35: Diretrizes oficiais para a implementação de Arquitetura Zero Trust (ZTA).
-
-OWASP Top 10 Application Security Risks: Relatório oficial com foco nas falhas de controle de acesso (A01) e falhas criptográficas (A02).
-
-Cartilhas e Guias do CERT.br / NIC.br: Material de referência nacional para tratamento de incidentes e fundamentos de malwares.
-
-Guia de Boas Práticas da LGPD (SGD - Gov.br): Documentação técnica para implementação de privacidade desde o design em ambientes corporativos.
+1. NIST Cybersecurity Framework (CSF) 2.0 e SP 1800-35 (Zero Trust)
+NIST SP 1800-35 (Implementação de Arquitetura Zero Trust): O documento oficial de alto nível pode ser acessado em https://doi.org/10.6028/NIST.SP.1800-35
+.
+NIST CSF 2.0: O framework de cibersegurança atualizado está disponível em https://doi.org/10.6028/NIST.CSWP.29
+.
+NIST SP 800-207 (Conceitos de Zero Trust): As diretrizes fundamentais da arquitetura estão em https://doi.org/10.6028/NIST.SP.800-207
+.
+Portal Geral do NIST: https://www.nist.gov/
+.
+2. OWASP Top 10 Application Security Risks
+Análise de Remediações: Um guia detalhado sobre as vulnerabilidades do Top 10 e suas soluções pode ser encontrado em https://xygeni.io/pt/blog/owasp-Top-10-and-their-remedies/
+.
+Vulnerabilidades A01 e A02: O material detalha que a falha A01:2021 (Broken Access Control) lidera o ranking, seguida pela A02:2021 (Cryptographic Failures), focando em controle de acesso e proteção de dados sensíveis
+.
+3. Cartilhas e Guias do CERT.br / NIC.br
+Cartilha de Segurança para Internet: O material de referência nacional para usuários e profissionais está em http://cartilha.cert.br/
+.
+Guia sobre Ransomware: Instruções específicas sobre como entender e responder a este tipo de ataque estão disponíveis em https://cert.br/docs/ransomware/
+.
+Portal Geral do CERT.br: https://cert.br/
+.
+4. Guia de Boas Práticas da LGPD (SGD - Gov.br)
+Guia de Boas Práticas LGPD: O documento técnico oficial da Secretaria de Governo Digital (SGD) para a implementação da lei pode ser baixado em https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf
+.
+Repositório de Frameworks e Modelos da SGD: A lista completa de guias operacionais, incluindo modelos de política de segurança e privacidade (Privacy by Design), está em https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/framework-guias-e-modelos
+.
+Página Oficial da LGPD no Governo Federal: https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd
+.
 
 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
 O processo de extração e consolidação do conhecimento não foi linear. Abaixo estão documentados os testes de prompts, erros da IA e como a estratégia foi refinada:
