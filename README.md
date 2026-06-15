@@ -43,24 +43,31 @@ As diretrizes técnicas apresentadas foram fundamentadas a partir das seguintes 
 Foram feitas algumas perguntas para o LLM para extrair informações de maneiras mais simples para as maneiras mais rebuscadas.
 
 Por exemplo:
-* me mostre quais são os principais pilares da Cibersegurança!
+* **me mostre quais são os principais pilares da Cibersegurança!
 * **Os principais pilares da Cibersegurança fundamentam-se na proteção de dados e sistemas, sendo frequentemente representados pela Tríade CIA (Confidencialidade, Integridade e Disponibilidade), que é expandida em modelos mais abrangentes para incluir a Autenticidade e a Legalidade
+
 .
 Abaixo estão detalhados os cinco pilares essenciais:
+
 Confidencialidade: Garante que a informação seja acessível apenas por pessoas ou sistemas devidamente autorizados
 . A perda deste pilar resulta na divulgação não autorizada de dados, o que é comparável à perda de privacidade
 .
+
 Integridade: Assegura que as informações e os sistemas permaneçam precisos, completos e protegidos contra modificações ou destruições impróprias e não autorizadas durante todo o seu ciclo de vida
 .
+
 Disponibilidade: Garante que os sistemas, processos e informações estejam prontamente acessíveis e utilizáveis sempre que necessário pelos usuários autorizados
 . Falhas neste pilar, como quedas de serviço, impactam a continuidade das operações
 .
+
 Autenticidade: Refere-se à garantia de que os usuários ou dispositivos envolvidos em uma comunicação são realmente quem afirmam ser
 . Métodos como autenticação de dois fatores, biometria e certificados digitais são usados para reforçar este pilar
 .
+
 Legalidade (ou Conformidade): Diz respeito à obrigatoriedade de que o tratamento de dados e as práticas de segurança estejam em conformidade com as leis, normas e regulamentações vigentes, como a LGPD no Brasil
 . Isso garante que a organização atue de forma ética e jurídica, protegendo-se contra riscos legais e danos à reputação
 .
+
 Embora a Segurança da Informação abranja a proteção de dados em todos os formatos (físicos e digitais), a Cibersegurança foca especificamente em aplicar esses pilares para defender o ambiente digital e os ativos conectados à rede contra ataques cibernéticos
 
 *Contexto e Persona: Atue como um Arquiteto de Cibersegurança Sênior e Especialista em Governança de TI.
