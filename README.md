@@ -15,6 +15,8 @@ Privacidade e Conformidade: Entender a implementação de Privacy by Design sob 
 Defesa Automatizada: Explorar o uso de Inteligência Artificial (modelos LSTM e SVM em Python) para predição de tráfego malicioso e segurança em redes 5G.
 
 2. Curadoria de Fontes (NotebookLM)
+   🚀 **Acesse o ambiente de estudos:** Todo o material de apoio, análise de documentos e interações com a IA detalhadas neste guia podem ser consultados diretamente no meu [NotebookLM - Guia de Cibersegurança Corporativa](https://notebooklm.google.com/notebook/7ec3e799-f937-4f90-9716-02974279a833).
+
 Para garantir o rigor técnico do material, os seguintes documentos públicos e fontes abertas foram selecionados, analisados e carregados na ferramenta de suporte:
 
 2.1. NIST Cybersecurity Framework (CSF) 2.0 e SP 1800-35 (Zero Trust)
