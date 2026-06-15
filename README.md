@@ -17,34 +17,34 @@ Defesa Automatizada: Explorar o uso de Inteligência Artificial (modelos LSTM e 
 2. Curadoria de Fontes (NotebookLM)
 Para garantir o rigor técnico do material, os seguintes documentos públicos e fontes abertas foram selecionados, analisados e carregados na ferramenta de suporte:
 
-1. NIST Cybersecurity Framework (CSF) 2.0 e SP 1800-35 (Zero Trust)
+2.1. NIST Cybersecurity Framework (CSF) 2.0 e SP 1800-35 (Zero Trust)
 NIST SP 1800-35 (Implementação de Arquitetura Zero Trust): O documento oficial de alto nível pode ser acessado em https://doi.org/10.6028/NIST.SP.1800-35
-.
+
 NIST CSF 2.0: O framework de cibersegurança atualizado está disponível em https://doi.org/10.6028/NIST.CSWP.29
-.
+
 NIST SP 800-207 (Conceitos de Zero Trust): As diretrizes fundamentais da arquitetura estão em https://doi.org/10.6028/NIST.SP.800-207
-.
+
 Portal Geral do NIST: https://www.nist.gov/
-.
-2. OWASP Top 10 Application Security Risks
+
+2.2 OWASP Top 10 Application Security Risks
 Análise de Remediações: Um guia detalhado sobre as vulnerabilidades do Top 10 e suas soluções pode ser encontrado em https://xygeni.io/pt/blog/owasp-Top-10-and-their-remedies/
-.
+
 Vulnerabilidades A01 e A02: O material detalha que a falha A01:2021 (Broken Access Control) lidera o ranking, seguida pela A02:2021 (Cryptographic Failures), focando em controle de acesso e proteção de dados sensíveis
-.
-3. Cartilhas e Guias do CERT.br / NIC.br
+
+2.3 Cartilhas e Guias do CERT.br / NIC.br
 Cartilha de Segurança para Internet: O material de referência nacional para usuários e profissionais está em http://cartilha.cert.br/
-.
+
 Guia sobre Ransomware: Instruções específicas sobre como entender e responder a este tipo de ataque estão disponíveis em https://cert.br/docs/ransomware/
-.
+
 Portal Geral do CERT.br: https://cert.br/
-.
-4. Guia de Boas Práticas da LGPD (SGD - Gov.br)
+
+2.4 Guia de Boas Práticas da LGPD (SGD - Gov.br)
 Guia de Boas Práticas LGPD: O documento técnico oficial da Secretaria de Governo Digital (SGD) para a implementação da lei pode ser baixado em https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados/guias/guia_lgpd.pdf
-.
+
 Repositório de Frameworks e Modelos da SGD: A lista completa de guias operacionais, incluindo modelos de política de segurança e privacidade (Privacy by Design), está em https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/framework-guias-e-modelos
-.
+
 Página Oficial da LGPD no Governo Federal: https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd
-.
+
 
 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
 O processo de extração e consolidação do conhecimento não foi linear. Abaixo estão documentados os testes de prompts, erros da IA e como a estratégia foi refinada:
@@ -64,25 +64,28 @@ Resultado obtido: Código preciso em Ruby, separação clara das responsabilidad
 Lição aprendida (Troubleshooting): Fornecer o papel (persona), a fonte exata (NIST/OWASP) e exigir o contraponto (vulnerável vs. mitigado) eleva drasticamente a qualidade da resposta da IA.
 
 4. Miniguia de Estudo e Entrega Final
+5. 
 📑 Resumos Estruturados
-A. OWASP Top 10 & Defesa em Aplicações
+
+4.1. OWASP Top 10 & Defesa em Aplicações
 A01: Broken Access Control: Ocorre quando as restrições sobre o que os usuários autenticados podem fazer não são devidamente aplicadas. Em Ruby on Rails, isso frequentemente envolve a manipulação de IDs de parâmetros que permitem a visualização de dados de terceiros (IDOR).
 
 Mitigação: Uso de bibliotecas robustas de autorização (como Pundit ou CanCanCan) e validação rigorosa de escopo baseada no usuário logado da sessão, nunca confiando apenas nos parâmetros enviados pelo front-end.
 
-B. Frameworks e Zero Trust Architecture (ZTA)
+4.2 Frameworks e Zero Trust Architecture (ZTA)
 A Arquitetura Zero Trust opera sob o lema: "Nunca confie, sempre verifique".
 
 NIST CSF vs ISO 27001: Enquanto a ISO 27001 foca fortemente na criação de um Sistema de Gestão de Segurança da Informação (SGSI) auditável e focado em processos, o NIST CSF oferece um framework flexível baseado em 5 funções contínuas (Identificar, Proteger, Detectar, Responder, Recuperar).
 
 Casos de Impacto: Ataques de cadeia de suprimentos (Supply Chain Attacks) como o da SolarWinds demonstram que mesmo softwares internos homologados precisam ser tratados com desconfiança (perímetro interno não é mais sinônimo de seguro).
 
-C. IA e Tecnologias Emergentes (Python para Defesa)
+4.3 IA e Tecnologias Emergentes (Python para Defesa)
 SVM (Support Vector Machines): Utilizado para classificar pacotes de rede normais de anomalias com base em características estáticas.
 
 LSTM (Long Short-Term Memory): Redes neurais recorrentes ideais para analisar séries temporais de tráfego de redes 5G, permitindo identificar padrões sutis de exfiltração de dados ou ataques distribuídos de negação de serviço (DDoS) antes que causem indisponibilidade.
 
 📖 Glossário de Conceitos Críticos
+
 Zero Trust Architecture (ZTA): Abordagem de segurança que assume que as ameaças estão presentes tanto dentro quanto fora dos limites da rede, exigindo verificação contínua de cada usuário e dispositivo.
 
 Privacy by Design: Abordagem da LGPD que determina que a proteção de dados e a privacidade devem ser integradas ao desenvolvimento de sistemas, práticas de negócios e produtos desde a sua concepção.
