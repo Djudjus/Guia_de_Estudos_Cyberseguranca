@@ -43,7 +43,8 @@ As diretrizes técnicas apresentadas foram fundamentadas a partir das seguintes 
 Foram feitas algumas perguntas para o LLM para extrair informações de maneiras mais simples para as maneiras mais rebuscadas.
 
 Por exemplo:
-* Me mostre quais são os principais pilares da Cibersegurança!
+Primeira pergunta:
+Me mostre quais são os principais pilares da Cibersegurança!
 * Os principais pilares da Cibersegurança fundamentam-se na proteção de dados e sistemas, sendo frequentemente representados pela Tríade CIA (Confidencialidade, Integridade e Disponibilidade), que é expandida em modelos mais abrangentes para incluir a Autenticidade e a Legalidade
 .
 
@@ -70,7 +71,8 @@ Legalidade (ou Conformidade): Diz respeito à obrigatoriedade de que o tratament
 
 Embora a Segurança da Informação abranja a proteção de dados em todos os formatos (físicos e digitais), a Cibersegurança foca especificamente em aplicar esses pilares para defender o ambiente digital e os ativos conectados à rede contra ataques cibernéticos
 
-* Contexto e Persona: Atue como um Arquiteto de Cibersegurança Sênior e Especialista em Governança de TI.
+Segunda pergunta: 
+Contexto e Persona: Atue como um Arquiteto de Cibersegurança Sênior e Especialista em Governança de TI.
 Tarefa: Explique os pilares fundamentais da segurança da informação (a Tríade CID e suas extensões modernas para o cenário corporativo atual de 2026).
 Diretrizes de Conteúdo: Para cada pilar abordado, você deve incluir:
  - Uma definição técnica e concisa do conceito.
